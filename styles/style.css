@@ -1,0 +1,75 @@
+.lipatos-level-edit-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 30px;
+  margin: 0 0 6px;
+  padding: 0 2px;
+}
+
+.lipatos-level-edit-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: auto;
+  min-width: 0;
+  height: 25px;
+  margin: 0;
+  padding: 2px 7px 2px 5px;
+  border: 1px solid rgba(201, 170, 107, 0.65);
+  border-radius: 4px;
+  background: rgba(20, 20, 22, 0.72);
+  color: #bdb8ad;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.lipatos-level-edit-toggle:hover {
+  border-color: #d5b978;
+  color: #e6dcc8;
+}
+
+.lipatos-level-edit-toggle.gm-locked {
+  cursor: not-allowed;
+}
+
+.lipatos-level-edit-track {
+  position: relative;
+  display: inline-block;
+  width: 27px;
+  height: 14px;
+  flex: 0 0 27px;
+  border: 1px solid #777;
+  border-radius: 8px;
+  background: #454545;
+}
+
+.lipatos-level-edit-knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #bcbcbc;
+  transition: transform 100ms ease;
+}
+
+.lipatos-level-edit-toggle.active {
+  border-color: #c9aa6b;
+  color: #ead39b;
+}
+
+.lipatos-level-edit-toggle.active .lipatos-level-edit-track {
+  border-color: #c9aa6b;
+  background: rgba(126, 94, 37, 0.65);
+}
+
+.lipatos-level-edit-toggle.active .lipatos-level-edit-knob {
+  transform: translateX(13px);
+  background: #ead39b;
+}
