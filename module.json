@@ -2,7 +2,7 @@
   "id": "lipatos-player-level-edit",
   "title": "LipatoS — редактирование уровня",
   "description": "Синхронизируемый тумблер редактирования уровня. Его видят игрок и ГМ, включать и выключать может только ГМ. Состояние хранится на персонаже и одновременно применяется у ГМ и игрока. Разблокируется только вкладка особенностей.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "authors": [
     {
       "name": "LipatoS"
@@ -19,7 +19,7 @@
         "type": "system",
         "compatibility": {
           "minimum": "6.0.0",
-          "verified": "6.0.3"
+          "verified": "6.0.5"
         }
       }
     ]
@@ -31,5 +31,5 @@
     "styles/style.css"
   ],
   "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-player-level-edit/main/module.json",
-  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-player-level-edit/main/lipatos-player-level-edit-v1.2.0.zip"
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-player-level-edit/main/lipatos-player-level-edit-v1.2.1.zip"
 }
